@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>Counter-Strike 2 - Novedades</title>
+        <link>https://Sbecis0.github.io/rss/feed.xml</link>
+        <description>Últimas noticias y actualizaciones sobre Counter-Strike 2.</description>
+        <language>es</language>
+        <lastBuildDate>Sat, 23 Feb 2025 12:00:00 GMT</lastBuildDate>
+
+        <item>
+            <title>¡Counter-Strike 2 ya disponible!</title>
+            <link>https://Sbecis0.github.io/#inicio</link>
+            <description>Descubre todas las novedades de Counter-Strike 2 y descarga el juego ahora.</description>
+            <pubDate>Fri, 22 Feb 2025 10:00:00 GMT</pubDate>
+        </item>
+
+        <item>
+            <title>Nuevas skins en KeyDrop</title>
+            <link>https://keydrop.com/</link>
+            <description>Revisa las últimas skins disponibles en KeyDrop y gana recompensas increíbles.</description>
+            <pubDate>Thu, 21 Feb 2025 14:30:00 GMT</pubDate>
+        </item>
+
+        <item>
+            <title>Actualización de física en granadas</title>
+            <link>https://Sbecis0.github.io/#caracteristicas</link>
+            <description>El nuevo sistema de físicas de granadas mejora la jugabilidad y la estrategia en CS2.</description>
+            <pubDate>Wed, 20 Feb 2025 18:00:00 GMT</pubDate>
+        </item>
+
+    </channel>
+</rss>
