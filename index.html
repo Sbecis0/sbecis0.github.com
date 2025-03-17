@@ -7,16 +7,19 @@
     <title>Counter-Strike 2 - Sitio Completo</title>
     <link rel="stylesheet" href="diseny.css">
     <link rel="alternate" type="application/rss+xml" title="Counter-Strike 2 - Novedades" href="https://Sbecis0.github.io/rss/feed.xml">
-    <!-- Font Awesome para los iconos -->
+   
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- Favicon -->
+    
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
 <header>
     <div class="container">
         <h1>Counter-Strike 2</h1>
-        <nav>
+        <div class="menu-toggle" id="mobile-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+        <nav id="nav-menu">
             <ul>
                 <li><a href="#inicio">Inicio</a></li>
                 <li><a href="#caracteristicas">Características</a></li>
@@ -192,6 +195,7 @@
         </div>
     </div>
 </footer>
+
 <script>
     // Script para hacer el menú de navegación pegajoso
     window.addEventListener('scroll', function() {
@@ -208,6 +212,15 @@
             });
         });
     });
-</script>
-</body>
-</html>
+    
+    // Script para el menú móvil
+    const mobileMenu = document.getElementById('mobile-menu');
+    const navMenu = document.getElementById('nav-menu');
+    
+    mobileMenu.addEventListener('click', function() {
+        navMenu.classList.toggle('active');
+        if (navMenu.classList.contains('active')) {
+            mobileMenu.innerHTML = '<i class="fas fa-times"></i>';
+        } else {
+            mobileMenu.innerHTML = '<i class="fas fa-bars"></i>';
+        }
